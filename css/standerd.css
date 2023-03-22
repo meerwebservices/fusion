@@ -1,0 +1,156 @@
+/*
+  @media screen  and (max-width: 1024px) and (min-width: 768px) {
+
+        Ipad-Pro  LG
+  }
+
+  @media screen   and (max-width: 767px) and (min-width: 481px) {
+
+      Ipad        MD
+  }
+  @media screen   and (max-width: 480px) and (min-width: 320px) {
+
+    Mobiles       SM
+  }
+
+
+ */
+@import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #abacae;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 38px;
+  color: #222222;
+  font-weight: 700;
+  font-family: "Arvo", serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  color: #333;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all ease-in-out 250ms;
+}
+a.active {
+  color: #F63854;
+}
+a:hover {
+  color: #F63854;
+  cursor: pointer;
+}
+
+.scrol {
+  background-color: #fff;
+  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+}
+
+.btn-style {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  background-color: #F63854;
+  color: #fff;
+  border: 1px solid #F63854;
+  transition: all ease-in-out 250ms;
+}
+.btn-style:hover {
+  background: transparent;
+  color: #F63854;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.after-line {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.after-line h2 {
+  display: inline-block;
+  position: relative;
+}
+.after-line h2::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f68;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #abacae;
+}
+
+.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff !important;
+  margin: 2px 4px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.owl-dot.active {
+  background: #fff !important;
+}
+
+/*# sourceMappingURL=standerd.css.map */

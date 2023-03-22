@@ -1,0 +1,27 @@
+/*
+  @media screen and (min-width: 320px)  and (max-width: 480px) {
+
+    Mobiles
+  }
+  @media screen and (min-width: 481px)  and (max-width: 767px) {
+
+      Ipad
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+        Ipad-Pro
+  }
+ */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  #header .container #logo img {
+    width: 200px;
+  }
+}
+#header .container nav ul {
+  text-align: right;
+}
+#header .container nav ul li {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=responsive.css.map */
